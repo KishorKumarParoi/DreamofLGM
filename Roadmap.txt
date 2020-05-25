@@ -1,0 +1,61 @@
+Journey from 1000 to 1400 ^_^
+
+***Each 4 month 1200 problems to be solved***
+***Each day 6.00 pm to 2.00pm 8 hours 8 problem
+  Time->
+  6.00-8.00 : AtCoder Beginner Contest
+  8.00-11.00: Codeforces Educational Round
+  11.00-2.00: ProjectEuler.net (3 problems)
+
+25 minutes programming 5 minute break :p :p 
+
+Wake Up : 7.00 am
+
+7.00 to 12.00 pm : Marathon of RAPL 
+12.00 to 5.00 pm : Upsolving
+
+---------------------------------------------------
+
+Increasing Implementation Skill : 
+#1.Solving Atcoder Beginner Contest B & C problems (150)
+#2.Solving problems rating<=1400 rating in Codeforces (200)
+#3.Binary Search, Greedy, Stack And Queue, Linked List,Arrays
+   
+   i.Binary Search/Ternary Search
+     ->Leetcode Binary Search
+     ->pdf from Erricto video link
+     ->Marathon of Devskill by Dip
+     ->Rating 800 to 1600 CF(30)
+
+   ii.Greedy
+     ->Leetcode (20)
+     ->Marathon by mine
+     ->Rating 800 to 1400 CF (30)
+     
+  iii.Implementation
+     ->Rating 800 to 1600 CF(50)
+
+   iv.Math
+     ->Rating 800 to 1600 CF(50)
+    
+    v.Constructive Algorithms
+     ->Rating 800 to 1600 CF(50)
+
+   vi.Strings
+     ->Rating 800 to 1600 CF(50)
+
+  vii.Number Theory
+     ->Rating 800 to 1600 CF(50)
+
+ viii.Sorting/Searching/Hashing
+     ->Rating 800 to 1600 CF(50)
+
+   ix. Recursion 
+     ->Leetcode both 1 & 2
+     ->Rating 800 to 1600 CF(50)
+     ->KMP : Rating 800 to 1600 CF(20)
+
+   x.Combinatorics
+     ->Rating 800 to 1600 CF(50)
+
+This Month Only Atcoder B&C and CF<=1400
