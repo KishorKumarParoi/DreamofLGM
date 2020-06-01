@@ -1,0 +1,50 @@
+Project Euler Problem 1 : 
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+There is two types solution for this problem.Bruteforce and Gauss Formula
+Bruteforce:
+just iterate through i from range 1 to 1000 and check if i is both divisible by both 3 and 5, then sum+=i and finally print the answer
+Complexity : O(n) 
+Limitation : It is limited till the value of n is 10^8 
+
+The program runs instantly for the less than 1000 limit but we quickly learn that this method does not scale to larger ranges such as 
+1 billion run 100,000 times is less than a second. Such is the demand required to be met by the HackerRank Project Euler 1. So we need 
+to find a more efficient way of calculating this sum without looping.
+Just Look this version of problem -> https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem
+
+So we have to find more efficient scalable version
+firstly, we all know about the n*(n+1)/2 which is used for getting the sum from 1 to n. We will use this formula's extended version.
+
+Column * Column Sum = (n/2) * (n+1) 
+
+We can adapt this formula to count the numbers only divisible by d to a specific limit; such as n=33, d=3, in the following example.
+Remember when there is an odd number we start from zero to keep the columns paired. Here’s how the adaptation works:
+
+ 0  3   6   9  12  15
+33 30  27  24  21  18
+Each column sums to 33 and, using our understanding from above, we calculate 6*33 to find the sum of numbers to 33 that are evenly
+divisible by 3 (6*33=198)
+
+d = 3 or 5 or any divisor
+m = floor(n/d)
+Summation for d's multiple in range = n*(n+1)*d/2
+
+if n = 20, then :
+for 3 ->
+m = floor(n/3) = 6 & summation of multiples of 3 <=20 -> m*(m+1)*d/2 = 6*7*3/2 = 63 
+like 3 + 6 + 9 + 12 + 15 + 18 = 63
+for 5 ->
+m = 4, d=5, sum = 4*5*5/2 = 50
+like 5 + 10 + 15 + 20 = 50
+
+ Adding those together is almost our answer but we must first subtract the sum of every 15th natural number (3 × 5) as it is counted 
+ twice: once in the 3 summation and once again in the 5 summation. such as 15,30,45 both are divisble by 3 and 5 so we have to subtract
+ multiples of 15
+ 
+ for 15-> do it yourself :D
+ #feelfreetofail
+ 
+If you have read all of these above here is gift for you :p 
+Answer : 233168
+
