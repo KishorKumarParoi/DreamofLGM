@@ -1,1 +1,0 @@
-"use strict";!function(){var t=location.hash.substr(1),c=document.createElement("img");c.src=t}();
